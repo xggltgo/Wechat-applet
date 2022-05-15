@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "文章详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse",
+    "comment-box": "/components/CommentBox/CommentBox",
+    "no-data": "/components/NoData/NoData",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "save-like": "/components/SaveLike/SaveLike",
+    "comment-mask": "/components/CommentMask/CommentMask"
+  }
+}

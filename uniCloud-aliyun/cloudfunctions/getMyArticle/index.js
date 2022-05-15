@@ -1,0 +1,28 @@
+'use strict';
+const db = uniCloud.database();
+const dbCmd = db.command;
+exports.main = async (event, context) => {
+	const {userId} = event;
+	
+	const {data} = await db.collection('user').doc(userId).get();
+	const article_ids = data[0].article_ids;
+	
+	const list = await db.collection('article')
+	.aggregate()
+	.project({
+		content:0,
+		commentInfo:0
+	})
+	.match({
+		id:dbCmd.in(article_ids)
+	})
+	.end()
+	
+	
+	//返回数据给客户端
+	return {
+		code:0,
+		msg:'',
+		data:list.data
+	}
+};

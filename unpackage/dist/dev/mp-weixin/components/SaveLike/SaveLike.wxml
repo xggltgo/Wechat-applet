@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['saveLike',['$event']]]]]}}" class="save-like-container" catchtap="__e"><uni-icons vue-id="4d9fcdfc-1" type="{{isSavelike?'heart-filled':'heart'}}" size="{{size}}" color="inherit" bind:__l="__l"></uni-icons></view>

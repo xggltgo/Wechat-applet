@@ -1,0 +1,1 @@
+<view class="my-article-container"><block wx:if="{{articleList.length}}"><article-list vue-id="323b0a6a-1" articleList="{{articleList}}" isSearchPage="{{false}}" bind:__l="__l"></article-list></block><block wx:else><no-data vue-id="323b0a6a-2" text="{{text}}" bind:__l="__l"></no-data></block></view>

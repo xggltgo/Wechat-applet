@@ -1,0 +1,1 @@
+<view class="no-data-container data-v-75bae9e4" style="{{'height:'+(containerHeight+'rpx')+';'+('background-color:'+(bgColor)+';')}}">{{''+text+''}}</view>

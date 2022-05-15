@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['getFormData',['$event']]]]]}}" class="{{['verification-code-container','data-v-369db396',(isCountDown)?'count-down':'']}}" bindtap="__e">{{''+(isCountDown?time+'秒后重试':'获取验证码')+''}}</view>

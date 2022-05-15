@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "用户注册",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "no-data": "/components/NoData/NoData"
+  }
+}
